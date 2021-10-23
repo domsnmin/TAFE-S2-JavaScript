@@ -47,11 +47,9 @@ document.getElementById('print').addEventListener('click', function(){
         // it is same as,
         // compiled_list = compiled_list + shopping_list[i];
     }
-    // compiled_list += "</ul>"; // to close the "ul"
+    compiled_list += "</ul>"; // to close the "ul"
     // it works without "compiled_list += "</ul>";" ???
 
     document.getElementById('shopping-printout').innerHTML = compiled_list;
 });
-
-
 
