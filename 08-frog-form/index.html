@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Frog Form</title>
+</head>
+<body>
+    <div id="wrapper">
+
+        <h1 id="title">Frog From</h1>
+        <p id="subtitle">Using jQuery + jQuery Validation plugin on a contact form.</p>
+
+        <h2>Sign up to our Mailing List</h2>
+        <form action="" method="get" id="frog">
+
+            <fieldset id="formBox">
+
+                <legend>Sign-up Form</legend>
+
+                <label for="firstName">First Name<span>*</span></label>
+                <input type="text" id="firstName" placeholder="Your first name" minlength="3" required>
+    
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Your last name">
+    
+                <label for="email">Email Address<span>*</span></label>
+                <input type="email" id="email" placeholder="Your email address" required>
+    
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="checkbox">Terms & Conditions<span>*</span></label>
+    
+                <input type="submit" value="Sign Up" id="signup" disabled="true">
+
+            </fieldset>
+
+        </form>
+
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
